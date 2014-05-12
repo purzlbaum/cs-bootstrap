@@ -7,3 +7,4 @@ To Do
 =====
 
 - Javascripts
+- Apple touch icons
