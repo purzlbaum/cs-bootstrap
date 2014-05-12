@@ -1,0 +1,295 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CS Bootstrap v0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-12 21:12:06+0000\n"
+"Last-Translator: claudio <claudio@claudioschwarz.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: comments.php:8
+#@ cs-bootstrap
+msgid "Kommentare"
+msgstr "Comments"
+
+#: comments.php:24
+#@ cs-bootstrap
+msgid "Ping- und Trackbacks"
+msgstr "Ping- and Trackbacks"
+
+#: comments.php:50
+#@ cs-bootstrap
+msgid "Keine Reaktionen"
+msgstr "No comments yet"
+
+#: comments.php:51
+#@ cs-bootstrap
+msgid "Es sind noch keine Kommentare vorhanden. Du hast etwas Spannendes zu sagen? Trage einfach deinen Namen, deine E-Mail Adresse (wird nicht veröffentlicht) und sofern vorhanden, deine Webseite in das Kommentarformular ein und kommentiere."
+msgstr "There are no comments at this moment. You've got something to say. Fill in your name, your email address (will not be published) and if you've got a website also and comment"
+
+#: comments.php:58
+#: comments.php:59
+#@ cs-bootstrap
+msgid "Kommentar verfassen"
+msgstr "Write a comment"
+
+#: comments.php:60
+#@ cs-bootstrap
+msgid "<div id=\"required-explain\">* erforderlich</div>"
+msgstr "<div id=\"required-explain\">* required</div>"
+
+#: comments.php:62
+#@ cs-bootstrap
+msgid "absenden"
+msgstr "send"
+
+#: comments.php:64
+#@ default
+msgid "Name"
+msgstr ""
+
+#: comments.php:65
+#@ default
+msgid "Email"
+msgstr ""
+
+#: comments.php:66
+#@ default
+msgid "Website"
+msgstr ""
+
+#: content-404.php:3
+#@ cs-bootstrap
+msgid "Fehler 404 - Seite nicht gefunden"
+msgstr "Error 404 - Page not found"
+
+#: content-404.php:7
+#@ cs-bootstrap
+msgid "Die angeforderte Seite wurde nicht gefunden. Vielleicht ist der Link, den Sie benutzt haben, veraltet, oder Sie haben sich beim Eingeben der Adresse vertippt."
+msgstr "The requested page wasn't found. Maybe your link is broken or you misspelled the URL."
+
+#: content-404.php:10
+#@ cs-bootstrap
+msgid "Sie können nun zur"
+msgstr "You can now"
+
+#: content-404.php:10
+#@ cs-bootstrap
+msgid "Startseite"
+msgstr "Startpage"
+
+#: content-404.php:10
+#@ cs-bootstrap
+msgid "zurück oder die Suchfunktion benutzen."
+msgstr "go back or use the search field."
+
+#: content-page.php:25
+#: content-single.php:31
+#: content.php:30
+#@ cs-bootstrap
+msgid "Seiten:"
+msgstr "Pages:"
+
+#: content-single.php:9
+#: content.php:9
+#@ cs-bootstrap
+msgid "0 Kommentare"
+msgstr "0 comments"
+
+#: content-single.php:9
+#: content.php:9
+#@ cs-bootstrap
+msgid "1 Kommentar"
+msgstr "1 comment"
+
+#: content-single.php:9
+#: content.php:9
+#@ cs-bootstrap
+msgid "% Kommentare"
+msgstr "% comments"
+
+#: content-single.php:10
+#: content.php:10
+#@ cs-bootstrap
+msgid "editieren"
+msgstr "edit"
+
+#: includes/cs-bootstrap-custom-comments.php:17
+#@ default
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/cs-bootstrap-custom-comments.php:23
+#, php-format
+#@ default
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: includes/cs-bootstrap-entry-meta.php:5
+#@ cs-bootstrap
+msgid ", "
+msgstr ", "
+
+#: includes/cs-bootstrap-entry-meta.php:8
+#@ cs-bootstrap
+msgid " um "
+msgstr "at "
+
+#: includes/cs-bootstrap-entry-meta.php:8
+#@ cs-bootstrap
+msgid " Uhr"
+msgstr "o'clock"
+
+#: includes/cs-bootstrap-pagination.php:23
+#@ cs-bootstrap
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: includes/cs-bootstrap-pagination.php:24
+#@ cs-bootstrap
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: includes/cs-bootstrap-register-menu.php:5
+#@ cs-bootstrap
+msgid "Metanavigation"
+msgstr "Meta navigation"
+
+#: includes/cs-bootstrap-register-menu.php:6
+#@ cs-bootstrap
+msgid "Hauptnavigation"
+msgstr "Main navigation"
+
+#: includes/cs-bootstrap-register-menu.php:7
+#@ cs-bootstrap
+msgid "Fussnavigation"
+msgstr "Footer navigation"
+
+#: includes/cs-bootstrap-register-sidebars.php:4
+#@ cs-bootstrap
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: includes/cs-bootstrap-register-sidebars.php:6
+#@ cs-bootstrap
+msgid "Zeigt die Sidebar im Blog an."
+msgstr "Shows the sidebar."
+
+#: includes/cs-bootstrap-social-media-widget.php:8
+#@ cs-bootstrap
+msgid "Social Media Links Widget"
+msgstr "Social media links widget"
+
+#: includes/cs-bootstrap-social-media-widget.php:125
+#@ cs-bootstrap
+msgid "RSS Kommentare"
+msgstr "RSS comments"
+
+#: includes/cs-bootstrap-social-media-widget.php:161
+#@ cs-bootstrap
+msgid "Titel:"
+msgstr "Title:"
+
+#: includes/cs-bootstrap-social-media-widget.php:166
+#@ cs-bootstrap
+msgid "Facebook URL:"
+msgstr "Facebook URL:"
+
+#: includes/cs-bootstrap-social-media-widget.php:171
+#@ cs-bootstrap
+msgid "Twitter URL:"
+msgstr "Twitter URL:"
+
+#: includes/cs-bootstrap-social-media-widget.php:176
+#@ cs-bootstrap
+msgid "Google+ URL:"
+msgstr "Google+ URL:"
+
+#: includes/cs-bootstrap-social-media-widget.php:181
+#@ cs-bootstrap
+msgid "Flickr URL:"
+msgstr "Flickr URL:"
+
+#: includes/cs-bootstrap-social-media-widget.php:186
+#@ cs-bootstrap
+msgid "Newsletter URL:"
+msgstr "Newsletter URL:"
+
+#: includes/cs-bootstrap-social-media-widget.php:191
+#@ cs-bootstrap
+msgid "Kununu URL:"
+msgstr "Kununu URL:"
+
+#: includes/cs-bootstrap-social-media-widget.php:196
+#@ cs-bootstrap
+msgid "YouTube URL:"
+msgstr "YouTube URL:"
+
+#: includes/cs-bootstrap-social-media-widget.php:201
+#@ cs-bootstrap
+msgid "Vimeo URL:"
+msgstr "Vimeo URL:"
+
+#: includes/cs-bootstrap-social-media-widget.php:206
+#@ cs-bootstrap
+msgid "Pinterest URL:"
+msgstr "Pinterest URL:"
+
+#: includes/cs-bootstrap-social-media-widget.php:211
+#@ cs-bootstrap
+msgid "Slideshare URL:"
+msgstr "Slideshare URL:"
+
+#: includes/cs-bootstrap-social-media-widget.php:216
+#@ cs-bootstrap
+msgid "Foursquare URL:"
+msgstr "Foursquare URL:"
+
+#: includes/cs-bootstrap-social-media-widget.php:221
+#@ cs-bootstrap
+msgid "Linkedin URL:"
+msgstr "LinkedIn URL:"
+
+#: includes/cs-bootstrap-social-media-widget.php:226
+#@ cs-bootstrap
+msgid "Xing URL:"
+msgstr "Xing URL:"
+
+#: includes/cs-bootstrap-social-media-widget.php:231
+#@ cs-bootstrap
+msgid "RSS-Feed URL:"
+msgstr "RSS-Feed URL:"
+
+#: includes/cs-bootstrap-social-media-widget.php:236
+#@ cs-bootstrap
+msgid "RSS Kommentar URL:"
+msgstr "RSS comments URL:"
+
+#: includes/cs-bootstrap-social-media-widget.php:241
+#@ cs-bootstrap
+msgid "Alle Links in einem neuen Fenster öffnen."
+msgstr "Open all links in a new window."
+
+#: searchform.php:3
+#@ cs-bootstrap
+msgid "Suche nach:"
+msgstr "Search:"
+
+#: searchform.php:5
+#@ cs-bootstrap
+msgid "Suche"
+msgstr "Search"
+

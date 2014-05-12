@@ -11,3 +11,5 @@ function add_first_and_last($output) {
   return $output;
 }
 add_filter('wp_nav_menu', 'add_first_and_last');
+
+load_theme_textdomain( 'cs-bootstrap', get_template_directory() . '/languages' );
