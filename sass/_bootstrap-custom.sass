@@ -1,0 +1,23 @@
+.page-numbers
+  > li
+    > a,
+    > span
+      @include border-left-radius(0)
+      @include border-right-radius(0)
+
+      &.current
+        &:hover,
+        &:focus
+          background: none
+
+    &:first-child
+      > a,
+      > span
+        @include border-left-radius($border-radius-base)
+        @include border-right-radius(0)
+
+    &:last-child
+      > a,
+      > span
+        @include border-left-radius(0)
+        @include border-right-radius($border-radius-base)

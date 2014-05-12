@@ -1,0 +1,121 @@
+/*
+  Source of at2x mixin:
+  https://github.com/michaelsacca/retinajs-for-compass-sass-less/blob/master/src/retina.scss
+  Modified by Claudio Schwarz
+
+
+@mixin at2x($image_name, $w: auto, $h: auto, $extention: '.png')
+  background-image: url($image_name + $extention)
+  $x2img : $image_name + '@2x' + $extention
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
+    background-image: url($x2img)
+    -webkit-background-size: $w $h
+    -moz-background-size: $w $h
+    -o-background-size: $w $h
+    background-size: $w $h
+
+  @media only screen and (max-device-width : 1024px)
+    background-image: url($x2img)
+    -webkit-background-size: $w $h
+    -moz-background-size: $w $h
+    -o-background-size: $w $h
+    background-size: $w $h
+
+@mixin background-size($w, $h)
+  -webkit-background-size: $w $h
+  -moz-background-size: $w $h
+  -o-background-size: $w $h
+  background-size: $w $h
+
+@mixin box-sizing($sizing)
+  -webkit-box-sizing: $sizing
+  -moz-box-sizing: $sizing
+  -ms-box-sizing: $sizing
+  -o-box-sizing: $sizing
+  box-sizing: $sizing
+
+@mixin border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  -ms-border-radius: $radius
+  -o-border-radius: $radius
+  border-radius: $radius
+
+@mixin border-radius-top($radius)
+  -webkit-border-top-left-radius: $radius
+  -webkit-border-top-right-radius: $radius
+  -moz-border-radius-topleft: $radius
+  -moz-border-radius-topright: $radius
+  -ms-border-radius-topleft: $radius
+  -ms-border-radius-topright: $radius
+  -o-border-radius-topleft: $radius
+  -o-border-radius-topright: $radius
+  border-top-left-radius: $radius
+  border-top-right-radius: $radius
+
+@mixin border-radius-top-right($radius)
+  -webkit-border-top-right-radius: $radius
+  -moz-border-radius-topright: $radius
+  -ms-border-radius-topright: $radius
+  -o-border-radius-topright: $radius
+  border-top-right-radius: $radius
+
+@mixin border-radius-top-left($radius)
+  -webkit-border-top-left-radius: $radius
+  -moz-border-radius-topleft: $radius
+  -ms-border-radius-topleft: $radius
+  -o-border-radius-topleft: $radius
+  border-top-left-radius: $radius
+
+@mixin border-radius-bottom($radius)
+  -webkit-border-bottom-left-radius: $radius
+  -webkit-border-bottom-right-radius: $radius
+  -moz-border-radius-bottomleft: $radius
+  -moz-border-radius-bottomright: $radius
+  -ms-border-radius-bottomleft: $radius
+  -ms-border-radius-bottomright: $radius
+  -o-border-radius-bottomleft: $radius
+  -o-border-radius-bottomright: $radius
+  border-bottom-left-radius: $radius
+  border-bottom-right-radius: $radius
+
+@mixin border-radius-bottom-left($radius)
+  -webkit-border-bottom-left-radius: $radius
+  -moz-border-radius-bottomleft: $radius
+  -ms-border-radius-bottomleft: $radius
+  -o-border-radius-bottomleft: $radius
+  border-bottom-left-radius: $radius
+
+
+@mixin border-radius-bottom-right($radius)
+  -webkit-border-bottom-right-radius: $radius
+  -moz-border-radius-bottomright: $radius
+  -ms-border-radius-bottomright: $radius
+  -o-border-radius-bottomright: $radius
+  border-bottom-right-radius: $radius
+
+@mixin border-radius-left($radius)
+  -webkit-border-bottom-left-radius: $radius
+  -moz-border-radius-bottomleft: $radius
+  -ms-border-radius-bottomleft: $radius
+  -o-border-radius-bottomleft: $radius
+  border-bottom-left-radius: $radius
+  -webkit-border-top-left-radius: $radius
+  -moz-border-radius-topright: $radius
+  -ms-border-radius-topright: $radius
+  border-top-left-radius: $radius
+
+@mixin border-radius-right($radius)
+  -webkit-border-top-right-radius: $radius
+  -webkit-border-bottom-right-radius: $radius
+  -moz-border-radius-topright: $radius
+  -moz-border-radius-bottomright: $radius
+  -ms-border-radius-topright: $radius
+  -ms-border-radius-bottomright: $radius
+  -o-border-radius-topright: $radius
+  -o-border-radius-bottomright: $radius
+  border-top-right-radius: $radius
+  border-bottom-right-radius: $radius
+
+
