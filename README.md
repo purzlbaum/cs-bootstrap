@@ -8,3 +8,7 @@ To Do
 
 - Javascripts
 - Apple touch icons
+- favicon.ico
+- Github page
+- Header Image
+- Gallery shortcut with plugin
