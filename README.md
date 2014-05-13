@@ -9,6 +9,6 @@ To Do
 - Javascripts
 - Apple touch icons
 - favicon.ico
-- Github page
+- Demo page
 - Header Image
 - Gallery shortcut with plugin
