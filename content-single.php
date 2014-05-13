@@ -16,11 +16,11 @@
       the_post_thumbnail('article-image');
       echo '</div>';
       echo '<div class="entry-content col-sm-8">';
-      echo the_content( __( 'Artikel "' . get_the_title() . '" lesen <span class="meta-nav">&raquo;</span>', 'cs-bootstrap' ) );
+      the_content( __( 'Artikel "' . get_the_title() . '" lesen <span class="meta-nav">&raquo;</span>', 'cs-bootstrap' ) );
       echo '</div>';
     } else {
       echo '<div class="entry-content col-sm-12">';
-      echo the_content( __( 'Artikel "' . get_the_title() . '" lesen <span class="meta-nav">&raquo;</span>', 'cs-bootstrap' ) );
+      the_content( __( 'Artikel "' . get_the_title() . '" lesen <span class="meta-nav">&raquo;</span>', 'cs-bootstrap' ) );
       echo '</div>';
     }
     comments_template();
