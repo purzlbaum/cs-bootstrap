@@ -28,7 +28,7 @@ msgstr "Comments"
 #: comments.php:24
 #@ cs-bootstrap
 msgid "Ping- und Trackbacks"
-msgstr "Ping- and Trackbacks"
+msgstr "Pings and trackbacks"
 
 #: comments.php:50
 #@ cs-bootstrap
@@ -38,7 +38,7 @@ msgstr "No comments yet"
 #: comments.php:51
 #@ cs-bootstrap
 msgid "Es sind noch keine Kommentare vorhanden. Du hast etwas Spannendes zu sagen? Trage einfach deinen Namen, deine E-Mail Adresse (wird nicht veröffentlicht) und sofern vorhanden, deine Webseite in das Kommentarformular ein und kommentiere."
-msgstr "There are no comments at this moment. You've got something to say. Fill in your name, your email address (will not be published) and if you've got a website also and comment"
+msgstr "There are no comments at this moment. If you have something to say, fill in your name, your email address (which won't be made public), your website address (if you have one) and your comment."
 
 #: comments.php:58
 #: comments.php:59
@@ -54,32 +54,32 @@ msgstr "<div id=\"required-explain\">* required</div>"
 #: comments.php:62
 #@ cs-bootstrap
 msgid "absenden"
-msgstr "send"
+msgstr "Send"
 
 #: comments.php:64
 #@ default
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: comments.php:65
 #@ default
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: comments.php:66
 #@ default
 msgid "Website"
-msgstr ""
+msgstr "Website"
 
 #: content-404.php:3
 #@ cs-bootstrap
 msgid "Fehler 404 - Seite nicht gefunden"
-msgstr "Error 404 - Page not found"
+msgstr "Error 404 - page not found"
 
 #: content-404.php:7
 #@ cs-bootstrap
 msgid "Die angeforderte Seite wurde nicht gefunden. Vielleicht ist der Link, den Sie benutzt haben, veraltet, oder Sie haben sich beim Eingeben der Adresse vertippt."
-msgstr "The requested page wasn't found. Maybe your link is broken or you misspelled the URL."
+msgstr "The requested page wasn't found. Please make sure that you've requested a valid link and that you haven't misspelled it."
 
 #: content-404.php:10
 #@ cs-bootstrap
@@ -89,12 +89,12 @@ msgstr "You can now"
 #: content-404.php:10
 #@ cs-bootstrap
 msgid "Startseite"
-msgstr "Startpage"
+msgstr "Start page"
 
 #: content-404.php:10
 #@ cs-bootstrap
 msgid "zurück oder die Suchfunktion benutzen."
-msgstr "go back or use the search field."
+msgstr "Go back or use the search field."
 
 #: content-page.php:25
 #: content-single.php:31
@@ -130,13 +130,13 @@ msgstr "edit"
 #: includes/cs-bootstrap-custom-comments.php:17
 #@ default
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "Your comment is awaiting moderation."
 
 #: includes/cs-bootstrap-custom-comments.php:23
 #, php-format
 #@ default
 msgid "<cite class=\"fn\">%s</cite>"
-msgstr ""
+msgstr "<cite class=\"fn\">%s</cite>"
 
 #: includes/cs-bootstrap-entry-meta.php:5
 #@ cs-bootstrap
@@ -146,12 +146,12 @@ msgstr ", "
 #: includes/cs-bootstrap-entry-meta.php:8
 #@ cs-bootstrap
 msgid " um "
-msgstr "at "
+msgstr " at "
 
 #: includes/cs-bootstrap-entry-meta.php:8
 #@ cs-bootstrap
 msgid " Uhr"
-msgstr "o'clock"
+msgstr " o'clock"
 
 #: includes/cs-bootstrap-pagination.php:23
 #@ cs-bootstrap
@@ -180,12 +180,12 @@ msgstr "Footer navigation"
 
 #: includes/cs-bootstrap-register-sidebars.php:4
 #@ cs-bootstrap
-msgid "Sidebar"
+msgid "Seitenbalken"
 msgstr "Sidebar"
 
 #: includes/cs-bootstrap-register-sidebars.php:6
 #@ cs-bootstrap
-msgid "Zeigt die Sidebar im Blog an."
+msgid "Zeigt den Seitenbalken im Blog an."
 msgstr "Shows the sidebar."
 
 #: includes/cs-bootstrap-social-media-widget.php:8
@@ -271,12 +271,12 @@ msgstr "Xing URL:"
 #: includes/cs-bootstrap-social-media-widget.php:231
 #@ cs-bootstrap
 msgid "RSS-Feed URL:"
-msgstr "RSS-Feed URL:"
+msgstr "RSS feed URL:"
 
 #: includes/cs-bootstrap-social-media-widget.php:236
 #@ cs-bootstrap
 msgid "RSS Kommentar URL:"
-msgstr "RSS comments URL:"
+msgstr "URL for RSS comments:"
 
 #: includes/cs-bootstrap-social-media-widget.php:241
 #@ cs-bootstrap
@@ -286,10 +286,9 @@ msgstr "Open all links in a new window."
 #: searchform.php:3
 #@ cs-bootstrap
 msgid "Suche nach:"
-msgstr "Search:"
+msgstr "Search for:"
 
 #: searchform.php:5
 #@ cs-bootstrap
 msgid "Suche"
 msgstr "Search"
-
