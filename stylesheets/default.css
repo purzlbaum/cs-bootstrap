@@ -7967,10 +7967,11 @@ button.close {
 /* line 1, ../sass/_basics.sass */
 body {
   font-size: 16px;
+  padding: 20px 0;
 }
 
 /* external links */
-/* line 5, ../sass/_basics.sass */
+/* line 6, ../sass/_basics.sass */
 a.external {
   background: url("../images/external_link.png") no-repeat right 0px;
   padding-right: 21px;
