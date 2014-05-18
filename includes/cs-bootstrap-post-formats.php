@@ -3,7 +3,7 @@
 function cs_bootstrap_post_formats()  {
 
   // Add theme support for Post Formats
-$formats = array( 'quote', 'gallery', 'image', 'video', 'link' );
+  $formats = array( 'aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat' );
 	add_theme_support( 'post-formats', $formats );
 }
 

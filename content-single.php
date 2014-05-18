@@ -12,7 +12,9 @@
   <div class="row">
     <?php if( has_post_thumbnail() ) : ?>
       <div class="entry-thumbnail col-sm-4">
-        <? the_post_thumbnail( 'article-image' ); ?>
+        <figure>
+          <?php the_post_thumbnail( 'full' ); ?>
+        </figure>
       </div>
       <div class="entry-content col-sm-8">
         <?php the_content( __( 'Artikel "' . get_the_title() . '" lesen <span class="meta-nav">&raquo;</span>', 'cs-bootstrap' ) ); ?>

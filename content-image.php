@@ -8,8 +8,8 @@
   </header><!-- .entry-header -->
   <div class="entry-meta clearfix">
     <?php
-      $postFormat = get_post_format($post->id);
-      echo '<span class="genericon genericon-' . $postFormat . '"></span>';
+    $postFormat = get_post_format($post->id);
+    echo '<span class="genericon genericon-' . $postFormat . '"></span>';
     ?>
     <?php cs_bootstrap_entry_meta(); ?>
     <?php comments_popup_link(__( '0 Kommentare', 'cs-bootstrap' ), __( '1 Kommentar', 'cs-bootstrap' ), __( '% Kommentare', 'cs-bootstrap' )); ?>
@@ -17,19 +17,12 @@
   </div><!-- .entry-meta -->
   <div class="row">
     <?php if( has_post_thumbnail() ) : ?>
-      <div class="entry-thumbnail col-sm-4">
+      <div class="entry-thumbnail col-sm-12">
         <a href="<?php the_permalink(); ?>">
           <figure>
             <?php the_post_thumbnail( 'full' ); ?>
           </figure>
         </a>
-      </div>
-      <div class="entry-content col-sm-8">
-        <?php the_content( __( 'Artikel "' . get_the_title() . '" lesen <span class="meta-nav">&raquo;</span>', 'cs-bootstrap' ) ); ?>
-      </div>
-    <?php else : ?>
-      <div class="entry-content col-sm-12">
-        <?php the_content( __( 'Artikel "' . get_the_title() . '" lesen <span class="meta-nav">&raquo;</span>', 'cs-bootstrap' ) ); ?>
       </div>
     <?php endif; ?>
     <?php
