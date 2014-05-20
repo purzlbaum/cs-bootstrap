@@ -8645,8 +8645,51 @@ img {
   height: auto;
 }
 
+/* line 9, ../sass/_basics.sass */
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  font-style: italic;
+  margin: 0 0 1em 0;
+  padding: 0 40px;
+  line-height: 1.45;
+  position: relative;
+  color: black;
+  border: none;
+}
+/* line 20, ../sass/_basics.sass */
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -10px;
+  top: -20px;
+  color: black;
+}
+/* line 29, ../sass/_basics.sass */
+blockquote cite {
+  color: #efefef;
+  font-size: 1em;
+  display: block;
+  margin-top: 5px;
+}
+/* line 35, ../sass/_basics.sass */
+blockquote cite:before {
+  content: "\2014 \2009";
+}
+/* line 38, ../sass/_basics.sass */
+blockquote p {
+  margin: 0;
+  font-size: 1em;
+}
+/* line 41, ../sass/_basics.sass */
+blockquote p.lead {
+  font-size: 1em;
+}
+
 /* external links */
-/* line 10, ../sass/_basics.sass */
+/* line 46, ../sass/_basics.sass */
 a.external {
   background: url("../images/external_link.png") no-repeat right 0px;
   padding-right: 21px;

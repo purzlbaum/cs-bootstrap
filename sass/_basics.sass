@@ -6,6 +6,42 @@ img
   max-width: 100%
   height: auto
 
+blockquote
+  font-family: Georgia, serif
+  font-size: 1em
+  font-style: italic
+  margin: 0 0 1em 0
+  padding: 0 40px
+  line-height: 1.45
+  position: relative
+  color: $black
+  border: none
+
+  &:before
+    display: block
+    content: "\201C"
+    font-size: 80px
+    position: absolute
+    left: -10px
+    top: -20px
+    color: $black
+
+  cite
+    color: #efefef
+    font-size: 1em
+    display: block
+    margin-top: 5px
+
+    &:before
+      content: "\2014 \2009"
+
+  p
+    margin: 0
+    font-size: 1em
+    &.lead
+      font-size: 1em
+
+
 /* external links
 a.external
   background: url('../images/external_link.png') no-repeat right 0px
