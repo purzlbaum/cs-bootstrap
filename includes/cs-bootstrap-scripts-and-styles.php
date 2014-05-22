@@ -45,6 +45,35 @@ function cs_bootstrap_load_scripts() {
     true
   );
 
+  /**
+   * Adding google fonts
+   *
+   * This is the proper code to add google fonts
+   * as seen in TwentyTwelve
+   *
+   */
+
+
+  if(strpos(!$_SERVER['SERVER_NAME'], '.loc')){
+    $protocol = is_ssl() ? 'https' : 'http';
+    $query_args = array( 'family' => 'Open+Sans:400italic,700italic,400,700,300' );
+    wp_enqueue_style(
+      'open-sans',
+      add_query_arg( $query_args, "$protocol://fonts.googleapis.com/css" ),
+      array(),
+      null
+    );
+  } else {
+    $protocol = is_ssl() ? 'https' : 'http';
+    $query_args = array( 'family' => 'Open+Sans:400italic,700italic,400,700,300' );
+    wp_enqueue_style(
+      'open-sans',
+      add_query_arg( $query_args, "$protocol://fonts.googleapis.com/css" ),
+      array(),
+      null
+    );
+  }
+
   /*
    * Loads Twitter Bootstrap minified CSS
    */

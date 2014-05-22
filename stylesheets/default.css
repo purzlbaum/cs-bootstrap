@@ -8635,17 +8635,18 @@ button.close {
  * Modified by Claudio Schwarz */
 /* line 1, ../sass/_basics.sass */
 body {
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   padding: 20px 0;
 }
 
-/* line 5, ../sass/_basics.sass */
+/* line 6, ../sass/_basics.sass */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 9, ../sass/_basics.sass */
+/* line 10, ../sass/_basics.sass */
 blockquote {
   font-family: Georgia, serif;
   font-size: 1em;
@@ -8657,7 +8658,7 @@ blockquote {
   color: black;
   border: none;
 }
-/* line 20, ../sass/_basics.sass */
+/* line 21, ../sass/_basics.sass */
 blockquote:before {
   display: block;
   content: "\201C";
@@ -8667,29 +8668,29 @@ blockquote:before {
   top: -20px;
   color: black;
 }
-/* line 29, ../sass/_basics.sass */
+/* line 30, ../sass/_basics.sass */
 blockquote cite {
   color: #efefef;
   font-size: 1em;
   display: block;
   margin-top: 5px;
 }
-/* line 35, ../sass/_basics.sass */
+/* line 36, ../sass/_basics.sass */
 blockquote cite:before {
   content: "\2014 \2009";
 }
-/* line 38, ../sass/_basics.sass */
+/* line 39, ../sass/_basics.sass */
 blockquote p {
   margin: 0;
   font-size: 1em;
 }
-/* line 41, ../sass/_basics.sass */
+/* line 42, ../sass/_basics.sass */
 blockquote p.lead {
   font-size: 1em;
 }
 
 /* external links */
-/* line 46, ../sass/_basics.sass */
+/* line 47, ../sass/_basics.sass */
 a.external {
   background: url("../images/external_link.png") no-repeat right 0px;
   padding-right: 21px;
