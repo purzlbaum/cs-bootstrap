@@ -1,9 +1,13 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <header class="entry-header" role="heading">
     <h1 class="entry-title">
-      <a href="<?php the_permalink(); ?>">
+      <?php if( !is_single() ) : ?>
+        <a href="<?php the_permalink(); ?>">
+          <?php the_title(); ?>
+        </a>
+      <?php else: ?>
         <?php the_title(); ?>
-      </a>
+      <?php endif; ?>
     </h1>
   </header><!-- .entry-header -->
   <div class="entry-meta clearfix">
@@ -18,13 +22,8 @@
   <div class="row">
     <div class="col-sm-12">
       <?php
-      include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
-      if( is_plugin_active('cs-gallery/cs-gallery.php') ) :
-        ?>
-
-      <?php else: ?>
-        <p><?php _e('Bitte aktiviere das  "cs-gallery" Plugin.'); ?></p>
-      <?php endif; ?>
+        get_template_part( 'content', 'innergallery' );
+      ?>
     </div>
     <?php
       if( is_single() ) {

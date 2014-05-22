@@ -29,7 +29,7 @@ function themeFunctions(){
    *
    * */
   self.carouselInit = function() {
-
+    $('.carousel').carousel();
   }
 
   /*
