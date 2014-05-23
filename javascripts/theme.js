@@ -29,7 +29,7 @@ function themeFunctions(){
    *
    * */
   self.carouselInit = function() {
-    $('.carousel').carousel();
+    jQuery('.carousel').carousel();
   }
 
   /*
@@ -38,7 +38,7 @@ function themeFunctions(){
    *
    * */
   this.initFancyBox = function(){
-    $("a img").fancybox({
+    jQuery("a img").fancybox({
       padding: '10px'
     });
   }
@@ -49,7 +49,7 @@ function themeFunctions(){
    *
    * */
   this.initFitVids = function(){
-    $(".entry-content").fitVids();
+    jQuery(".entry-content").fitVids();
   }
 
   /*
