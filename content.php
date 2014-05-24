@@ -11,10 +11,7 @@
     </h1>
   </header><!-- .entry-header -->
   <div class="entry-meta clearfix">
-    <?php
-      $postFormat = get_post_format($post->id);
-      echo '<span class="genericon genericon-' . $postFormat . '"></span>';
-    ?>
+    <span class="genericon genericon-standard"></span>
     <?php cs_bootstrap_entry_meta(); ?>
     <?php comments_popup_link(__( '0 Kommentare', 'cs-bootstrap' ), __( '1 Kommentar', 'cs-bootstrap' ), __( '% Kommentare', 'cs-bootstrap' )); ?>
     <?php edit_post_link( __( 'editieren', 'cs-bootstrap' ), '<span class="edit-link">', '</span>' ); ?>
