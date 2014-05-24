@@ -13,17 +13,16 @@ class cs_bootstrap_social_media_widget extends WP_Widget {
     $title = $instance['title'];
     $facebook = $instance['facebook'];
     $twitter = $instance['twitter'];
+    $instagram = $instance['instagram'];
     $googleplus = $instance['googleplus'];
     $flickr = $instance['flickr'];
     $newsletter = $instance['newsletter'];
-    $kununu = $instance['kununu'];
+    $github = $instance['github'];
     $youtube = $instance['youtube'];
     $vimeo = $instance['vimeo'];
     $pinterest = $instance['pinterest'];
-    $slideshare = $instance['slideshare'];
-    $foursquare = $instance['foursquare'];
     $linkedin = $instance['linkedin'];
-    $xing = $instance['xing'];
+    $dribble = $instance['dribble'];
     $rss = $instance['rss'];
     $rsscomments = $instance['rsscomments'];
     $target = $instance['target'];
@@ -36,93 +35,88 @@ class cs_bootstrap_social_media_widget extends WP_Widget {
     <ul class="sociallinks">
       <?php
       if($facebook != '' && $target != ''){
-        echo '<li><a href="'.$facebook.'" class="facebook" title="Facebook" target="_blank"></a></li>';
+        echo '<li><a href="'.$facebook.'" class="genericon genericon-facebook" title="Facebook" target="_blank"></a></li>';
       } elseif($facebook != '') {
-        echo '<li><a href="'.$facebook.'" class="facebook" title="Facebook"></a></li>';
+        echo '<li><a href="'.$facebook.'" class="genericon genericon-facebook" title="Facebook"></a></li>';
       }
 
       if($twitter != '' && $target != ''){
-        echo '<li><a href="'.$twitter.'" class="twitter" title="Twitter" target="_blank"></a></li>';
+        echo '<li><a href="'.$twitter.'" class="genericon genericon-twitter" title="Twitter" target="_blank"></a></li>';
       } elseif($twitter != '') {
-        echo '<li><a href="'.$twitter.'" class="twitter" title="Twitter"></a></li>';
+        echo '<li><a href="'.$twitter.'" class="genericon genericon-twitter" title="Twitter"></a></li>';
+      }
+
+
+      if($instagram != '' && $target != ''){
+        echo '<li><a href="'.$instagram.'" class="genericon genericon-instagram" title="Instagram" target="_blank"></a></li>';
+      } elseif($twitter != '') {
+        echo '<li><a href="'.$instagram.'" class="genericon genericon-instagram" title="Instagram"></a></li>';
       }
 
       if($googleplus != '' && $target != ''){
-        echo '<li><a href="'.$googleplus.'" class="googleplus" title="Google+" target="_blank"></a></li>';
+        echo '<li><a href="'.$googleplus.'" class="genericon genericon-googleplus" title="Google+" target="_blank"></a></li>';
       } elseif($googleplus != '') {
-        echo '<li><a href="'.$googleplus.'" class="googleplus" title="Google+"></a></li>';
+        echo '<li><a href="'.$googleplus.'" class="genericon genericon-googleplus" title="Google+"></a></li>';
       }
 
       if($flickr != '' && $target != ''){
-        echo '<li><a href="'.$flickr.'" class="flickr" title="Flickr" target="_blank"></a></li>';
+        echo '<li><a href="'.$flickr.'" class="genericon genericon-flickr" title="Flickr" target="_blank"></a></li>';
       } elseif($flickr != '') {
-        echo '<li><a href="'.$flickr.'" class="flickr" title="Flickr"></a></li>';
+        echo '<li><a href="'.$flickr.'" class="genericon genericon-flickr" title="Flickr"></a></li>';
       }
 
       if($newsletter != '' && $target != ''){
-        echo '<li><a href="'.$newsletter.'" class="newsletter" title="Newsletter" target="_blank"></a></li>';
+        echo '<li><a href="'.$newsletter.'" class="genericon genericon-mail" title="Newsletter" target="_blank"></a></li>';
       } elseif($newsletter != '') {
-        echo '<li><a href="'.$newsletter.'" class="newsletter" title="Newsletter"></a></li>';
+        echo '<li><a href="'.$newsletter.'" class="genericon genericon-mail" title="Newsletter"></a></li>';
       }
 
-      if($kununu != '' && $target != ''){
-        echo '<li><a href="'.$kununu.'" class="kununu" title="Kununu" target="_blank"></a></li>';
-      } elseif($kununu != '') {
-        echo '<li><a href="'.$kununu.'" class="kununu" title="Kununu"></a></li>';
+      if($github != '' && $target != ''){
+        echo '<li><a href="'.$github.'" class="genericon genericon-github" title="github" target="_blank"></a></li>';
+      } elseif($github != '') {
+        echo '<li><a href="'.$github.'" class="github" title="github"></a></li>';
       }
 
       if($youtube != '' && $target != ''){
-        echo '<li><a href="'.$youtube.'" class="youtube" title="YouTube" target="_blank"></a></li>';
+        echo '<li><a href="'.$youtube.'" class="genericon genericon-youtube" title="YouTube" target="_blank"></a></li>';
       } elseif($youtube != '') {
-        echo '<li><a href="'.$youtube.'" class="youtube" title="YouTube"></a></li>';
+        echo '<li><a href="'.$youtube.'" class="genericon genericon-youtube" title="YouTube"></a></li>';
       }
       ?>
       <?php if($vimeo != '' && $target != ''){
-        echo '<li><a href="'.$vimeo.'" class="vimeo" title="Vimeo" target="_blank"></a></li>';
+        echo '<li><a href="'.$vimeo.'" class="genericon genericon-vimeo" title="Vimeo" target="_blank"></a></li>';
       } elseif($vimeo != '') {
-        echo '<li><a href="'.$vimeo.'" class="vimeo" title="Vimeo"></a></li>';
+        echo '<li><a href="'.$vimeo.'" class="genericon genericon-vimeo" title="Vimeo"></a></li>';
       }
 
       if($pinterest != '' && $target != ''){
-        echo '<li><a href="'.$pinterest.'" class="pinterest" title="Pinterest" target="_blank"></a></li>';
+        echo '<li><a href="'.$pinterest.'" class="genericon genericon-pinterest" title="Pinterest" target="_blank"></a></li>';
       } elseif($pinterest != '') {
-        echo '<li><a href="'.$pinterest.'" class="pinterest" title="Pinterest"></a></li>';
-      }
-
-      if($slideshare != '' && $target != ''){
-        echo '<li><a href="'.$slideshare.'" class="slideshare" title="Slideshare" target="_blank"></a></li>';
-      } elseif($slideshare != '') {
-        echo '<li><a href="'.$slideshare.'" class="slideshare" title="Slideshare"></a></li>';
-      }
-
-      if($foursquare != '' && $target != ''){
-        echo '<li><a href="'.$foursquare.'" class="foursquare" title="Foursquare" target="_blank"></a></li>';
-      } elseif($foursquare != '') {
-        echo '<li><a href="'.$foursquare.'" class="foursquare" title="Foursquare"></a></li>';
+        echo '<li><a href="'.$pinterest.'" class="genericon genericon-pinterest" title="Pinterest"></a></li>';
       }
 
       if($linkedin != '' && $target != ''){
-        echo '<li><a href="'.$linkedin.'" class="linkedin" title="LinkedIn" target="_blank"></a></li>';
+        echo '<li><a href="'.$linkedin.'" class="genericon genericon-linkedin" title="LinkedIn" target="_blank"></a></li>';
       } elseif($linkedin != '') {
-        echo '<li><a href="'.$linkedin.'" class="linkedin" title="LinkedIn"></a></li>';
+        echo '<li><a href="'.$linkedin.'" class="genericon genericon-linkedin" title="LinkedIn"></a></li>';
       }
 
-      if($xing != '' && $target != ''){
-        echo '<li><a href="'.$xing.'" class="xing" title="Xing" target="_blank"></a></li>';
-      } elseif($xing != '') {
-        echo '<li><a href="'.$xing.'" class="xing" title="Xing"></a></li>';
+      if($dribble != '' && $target != ''){
+        echo '<li><a href="'.$dribble.'" class="genericon genericon-dribble" title="Dribble" target="_blank"></a></li>';
+      } elseif($dribble != '') {
+        echo '<li><a href="'.$dribble.'" class="genericon genericon-dribble" title="Dribble"></a></li>';
       }
 
       if($rss != '' && $target != ''){
-        echo '<li><a href="'.$rss.'" class="rss" title="RSS Feed" target="_blank"></a></li>';
+        echo '<li><a href="'.$rss.'" class="genericon genericon-rss" title="RSS Feed" target="_blank"></a></li>';
       } elseif($rss != '') {
-        echo '<li><a href="'.$rss.'" class="rss" title="RSS Feed"></a></li>';
+        echo '<li><a href="'.$rss.'" class="genericon genericon-rss" title="RSS Feed"></a></li>';
       }
 
       if($rsscomments != '' && $target != ''){
-        echo '<li><a href="'.$rsscomments.'" class="rsscomments" title="RSS Kommentare" target="_blank"></a></li>';
+        echo '<li><a href="'.$rsscomments.'" class="genericon genericon-rss" title="RSS Kommentare" target="_blank"></a></li>';
       } elseif($rsscomments != '') {
-        echo '<li><a href="'.$rsscomments.'" class="rsscomments" title="' . __('RSS Kommentare', 'cs-bootstrap') . '"></a></li>';
+        echo '<li><a href="'.$rsscomments.'" class="genericon genericon-rss" title="' . __('RSS Kommentare', 'cs-bootstrap') . '"></a></li>';
       }
 
       ?>
@@ -139,18 +133,18 @@ class cs_bootstrap_social_media_widget extends WP_Widget {
   function form($instance) {
     $title = esc_attr($instance['title']);
     $twitter = esc_attr($instance['twitter']);
+    $instagram = esc_attr($instance['instagram']);
     $facebook = esc_attr($instance['facebook']);
     $googleplus = esc_attr($instance['googleplus']);
     $flickr = esc_attr($instance['flickr']);
     $newsletter = esc_attr($instance['newsletter']);
-    $kununu = esc_attr($instance['kununu']);
+    $github = esc_attr($instance['github']);
     $youtube = esc_attr($instance['youtube']);
     $vimeo = esc_attr($instance['vimeo']);
     $pinterest = esc_attr($instance['pinterest']);
-    $slideshare = esc_attr($instance['slideshare']);
     $foursquare = esc_attr($instance['foursquare']);
     $linkedin = esc_attr($instance['linkedin']);
-    $xing = esc_attr($instance['xing']);
+    $dribble = esc_attr($instance['dribble']);
     $rss = esc_attr($instance['rss']);
     $rsscomments = esc_attr($instance['rsscomments']);
     $target = esc_attr($instance['target']);
@@ -173,6 +167,11 @@ class cs_bootstrap_social_media_widget extends WP_Widget {
     </p>
 
     <p>
+      <label for="<?php echo $this->get_field_id('instagram'); ?>"><?php _e('Instagram URL:','cs-bootstrap'); ?></label>
+      <input type="text" name="<?php echo $this->get_field_name('instagram'); ?>" value="<?php echo $instagram; ?>" class="widefat" id="<?php echo $this->get_field_id('instagram'); ?>" />
+    </p>
+
+    <p>
       <label for="<?php echo $this->get_field_id('googleplus'); ?>"><?php _e('Google+ URL:','cs-bootstrap'); ?></label>
       <input type="text" name="<?php echo $this->get_field_name('googleplus'); ?>" value="<?php echo $googleplus; ?>" class="widefat" id="<?php echo $this->get_field_id('googleplus'); ?>" />
     </p>
@@ -188,8 +187,8 @@ class cs_bootstrap_social_media_widget extends WP_Widget {
     </p>
 
     <p>
-      <label for="<?php echo $this->get_field_id('kununu'); ?>"><?php _e('Kununu URL:','cs-bootstrap'); ?></label>
-      <input type="text" name="<?php echo $this->get_field_name('kununu'); ?>" value="<?php echo $kununu; ?>" class="widefat" id="<?php echo $this->get_field_id('kununu'); ?>" />
+      <label for="<?php echo $this->get_field_id('github'); ?>"><?php _e('Github URL:','cs-bootstrap'); ?></label>
+      <input type="text" name="<?php echo $this->get_field_name('github'); ?>" value="<?php echo $github; ?>" class="widefat" id="<?php echo $this->get_field_id('github'); ?>" />
     </p>
 
     <p>
@@ -208,23 +207,13 @@ class cs_bootstrap_social_media_widget extends WP_Widget {
     </p>
 
     <p>
-      <label for="<?php echo $this->get_field_id('slideshare'); ?>"><?php _e('Slideshare URL:','cs-bootstrap'); ?></label>
-      <input type="text" name="<?php echo $this->get_field_name('slideshare'); ?>" value="<?php echo $slideshare; ?>" class="widefat" id="<?php echo $this->get_field_id('slideshare'); ?>" />
-    </p>
-
-    <p>
-      <label for="<?php echo $this->get_field_id('foursquare'); ?>"><?php _e('Foursquare URL:','cs-bootstrap'); ?></label>
-      <input type="text" name="<?php echo $this->get_field_name('foursquare'); ?>" value="<?php echo $foursquare; ?>" class="widefat" id="<?php echo $this->get_field_id('foursquare'); ?>" />
-    </p>
-
-    <p>
       <label for="<?php echo $this->get_field_id('linkedin'); ?>"><?php _e('Linkedin URL:','cs-bootstrap'); ?></label>
       <input type="text" name="<?php echo $this->get_field_name('linkedin'); ?>" value="<?php echo $linkedin; ?>" class="widefat" id="<?php echo $this->get_field_id('linkedin'); ?>" />
     </p>
 
     <p>
-      <label for="<?php echo $this->get_field_id('xing'); ?>"><?php _e('Xing URL:','cs-bootstrap'); ?></label>
-      <input type="text" name="<?php echo $this->get_field_name('xing'); ?>" value="<?php echo $xing; ?>" class="widefat" id="<?php echo $this->get_field_id('xing'); ?>" />
+      <label for="<?php echo $this->get_field_id('dribble'); ?>"><?php _e('Dribble URL:','cs-bootstrap'); ?></label>
+      <input type="text" name="<?php echo $this->get_field_name('dribble'); ?>" value="<?php echo $dribble; ?>" class="widefat" id="<?php echo $this->get_field_id('dribble'); ?>" />
     </p>
 
     <p>
