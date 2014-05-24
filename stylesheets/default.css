@@ -8689,8 +8689,95 @@ blockquote p.lead {
   font-size: 1em;
 }
 
-/* external links */
+/* Alignment */
 /* line 47, ../sass/_basics.sass */
+.alignleft {
+  float: left;
+}
+
+/* line 50, ../sass/_basics.sass */
+.alignright {
+  float: right;
+}
+
+/* line 53, ../sass/_basics.sass */
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 58, ../sass/_basics.sass */
+figure.wp-caption.alignleft,
+img.alignleft {
+  margin: 7px 24px 7px 0;
+}
+
+/* line 62, ../sass/_basics.sass */
+.wp-caption.alignleft {
+  margin: 7px 14px 7px 0;
+}
+
+/* line 65, ../sass/_basics.sass */
+figure.wp-caption.alignright,
+img.alignright {
+  margin: 7px 0 7px 24px;
+}
+
+/* line 69, ../sass/_basics.sass */
+.wp-caption.alignright {
+  margin: 7px 0 7px 14px;
+}
+
+/* line 74, ../sass/_basics.sass */
+.fancybox-inner img.alingleft, .fancybox-inner img.alignright, .fancybox-inner img.aligncenter {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 80, ../sass/_basics.sass */
+.wp-caption {
+  margin-bottom: 24px;
+  color: #767676;
+}
+/* line 82, ../sass/_basics.sass */
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin: 0;
+}
+
+/* line 87, ../sass/_basics.sass */
+.wp-caption-text {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 9px 0;
+}
+
+/* line 97, ../sass/_basics.sass */
+div.wp-caption .wp-caption-text {
+  padding-right: 10px;
+}
+/* line 100, ../sass/_basics.sass */
+div.wp-caption.alignright img[class*="wp-image-"],
+div.wp-caption.alignright .wp-caption-text {
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+/* line 105, ../sass/_basics.sass */
+.wp-smiley {
+  border: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+/* external links */
+/* line 112, ../sass/_basics.sass */
 a.external {
   background: url("../images/external_link.png") no-repeat right 0px;
   padding-right: 21px;
