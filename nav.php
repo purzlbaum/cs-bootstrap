@@ -26,7 +26,3 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-<!-- START: nav.php -->
-<div class="wrap">
-</div>
-<!-- END: nav.php -->
