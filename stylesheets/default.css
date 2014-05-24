@@ -8719,3 +8719,21 @@ a.external {
 .pagination-container {
   text-align: center;
 }
+
+/* line 1, ../sass/_aside.sass */
+.social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 6, ../sass/_aside.sass */
+.social-links li {
+  margin: 0 0 0 10px;
+  padding: 0;
+  float: none;
+  display: inline-block;
+}
+/* line 12, ../sass/_aside.sass */
+.social-links li:first-child {
+  margin: 0;
+}

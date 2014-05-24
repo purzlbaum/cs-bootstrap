@@ -32,7 +32,7 @@ class cs_bootstrap_social_media_widget extends WP_Widget {
     <?php if($title != '')
       echo '<h3 class="widget-title">'.$title.'</h3>'; ?>
 
-    <ul class="sociallinks">
+    <ul class="social-links">
       <?php
       if($facebook != '' && $target != ''){
         echo '<li><a href="'.$facebook.'" class="genericon genericon-facebook" title="Facebook" target="_blank"></a></li>';
@@ -74,7 +74,7 @@ class cs_bootstrap_social_media_widget extends WP_Widget {
       if($github != '' && $target != ''){
         echo '<li><a href="'.$github.'" class="genericon genericon-github" title="github" target="_blank"></a></li>';
       } elseif($github != '') {
-        echo '<li><a href="'.$github.'" class="github" title="github"></a></li>';
+        echo '<li><a href="'.$github.'" class="genericon genericon-github" title="github"></a></li>';
       }
 
       if($youtube != '' && $target != ''){
@@ -108,15 +108,15 @@ class cs_bootstrap_social_media_widget extends WP_Widget {
       }
 
       if($rss != '' && $target != ''){
-        echo '<li><a href="'.$rss.'" class="genericon genericon-rss" title="RSS Feed" target="_blank"></a></li>';
+        echo '<li><a href="'.$rss.'" class="genericon genericon-feed" title="RSS Feed" target="_blank"></a></li>';
       } elseif($rss != '') {
-        echo '<li><a href="'.$rss.'" class="genericon genericon-rss" title="RSS Feed"></a></li>';
+        echo '<li><a href="'.$rss.'" class="genericon genericon-feed" title="RSS Feed"></a></li>';
       }
 
       if($rsscomments != '' && $target != ''){
-        echo '<li><a href="'.$rsscomments.'" class="genericon genericon-rss" title="RSS Kommentare" target="_blank"></a></li>';
+        echo '<li><a href="'.$rsscomments.'" class="genericon genericon-feed" title="RSS Kommentare" target="_blank"></a></li>';
       } elseif($rsscomments != '') {
-        echo '<li><a href="'.$rsscomments.'" class="genericon genericon-rss" title="' . __('RSS Kommentare', 'cs-bootstrap') . '"></a></li>';
+        echo '<li><a href="'.$rsscomments.'" class="genericon genericon-feed" title="' . __('RSS Kommentare', 'cs-bootstrap') . '"></a></li>';
       }
 
       ?>
