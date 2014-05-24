@@ -26,6 +26,6 @@ WordPress parent theme based on Bootstrap 3.1.1
 - custom sidebars
 - remove WordPress version for security reasons
 
-## Demo and showcase of functions, post formats and so on...
+## Demo of all this functions
 
 [bootstrap.claudioschwarz.com](http://bootstrap.claudioschwarz.com/)
