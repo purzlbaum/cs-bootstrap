@@ -1,4 +1,4 @@
-<form class="navbar-form navbar-left" role="search" method="get" id="search" class="search" action="<?php echo home_url('/'); ?>">
+<form class="navbar-form navbar-right" role="search" method="get" id="search" class="search" action="<?php echo home_url('/'); ?>">
   <div class="form-group">
     <label class="sr-only" for="s"><?php _e('Suche nach:', 'cs-bootstrap'); ?></label>
     <input type="search" autocomplete="on" value="" name="s" id="s" class="form-control input-text" placeholder="<?php $searchquery = get_search_query(); if ($searchquery == '') { echo __( 'Suchbegriff eingeben...', 'cs-bootstrap' ); } else { the_search_query() ;}?>">
