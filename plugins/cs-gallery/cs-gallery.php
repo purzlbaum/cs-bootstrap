@@ -11,7 +11,7 @@ Author URI: http://claudioschwarz.com
 */
 
 
-function claudioschwarz_gallery() {
+function cs_bootstrap_gallery() {
 global $post;
   $return_string = '';
   $return_string .= ''
@@ -67,6 +67,6 @@ global $post;
 
 
 function register_gallery_shortcode(){
-  add_shortcode('galerie', 'claudioschwarz_gallery');
+  add_shortcode('galerie', 'cs_bootstrap');
 }
 add_action( 'init', 'register_gallery_shortcode');
