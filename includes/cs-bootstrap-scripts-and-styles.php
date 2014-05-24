@@ -47,6 +47,24 @@ function cs_bootstrap_load_scripts() {
 
   // carousel.js from bootstrap
   wp_register_script(
+    'cs-dropdown-js',
+    get_template_directory_uri() . '/javascripts/bootstrap/dropdown.js',
+    null,
+    cs_bootstrap_get_theme_version(),
+    true
+  );
+
+  // carousel.js from bootstrap
+  wp_register_script(
+    'cs-collapse-js',
+    get_template_directory_uri() . '/javascripts/bootstrap/collapse.js',
+    null,
+    cs_bootstrap_get_theme_version(),
+    true
+  );
+
+  // carousel.js from bootstrap
+  wp_register_script(
     'cs-carousel-js',
     get_template_directory_uri() . '/javascripts/bootstrap/carousel.js',
     null,
@@ -120,6 +138,8 @@ function cs_bootstrap_load_scripts() {
   wp_enqueue_script( 'cs-fancybox-js' );
   wp_enqueue_script( 'cs-fitvids-js' );
   wp_enqueue_script( 'cs-transitions-js' );
+  wp_enqueue_script( 'cs-dropdown-js' );
+  wp_enqueue_script( 'cs-collapse-js' );
   wp_enqueue_script( 'cs-carousel-js' );
   wp_enqueue_script( 'cs-theme-js' );
 
