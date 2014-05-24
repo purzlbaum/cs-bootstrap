@@ -3,10 +3,7 @@ cs-bootstrap
 
 WordPress parent theme based on Bootstrap 3.1.1
 
-To Do
+Demo
 =====
 
-- Demo page
-- Header Image
-- Gallery shortcut with plugin
-- Post Formats for Demo
+bootstrap.claudioschwarz.com(http://bootstrap.claudioschwarz.com/)
