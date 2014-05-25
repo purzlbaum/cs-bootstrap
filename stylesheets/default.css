@@ -8730,7 +8730,7 @@ img.alignright {
 }
 
 /* line 74, ../sass/_basics.sass */
-.fancybox-inner img.alingleft, .fancybox-inner img.alignright, .fancybox-inner img.aligncenter {
+.fancybox-active .fancybox-inner img.alingleft, .fancybox-active .fancybox-inner img.alignright, .fancybox-active .fancybox-inner img.aligncenter {
   margin: 0;
   padding: 0;
 }
@@ -8823,4 +8823,8 @@ a.external {
 /* line 12, ../sass/_aside.sass */
 .social-links li:first-child {
   margin: 0;
+}
+/* line 15, ../sass/_aside.sass */
+.social-links li a:hover {
+  text-decoration: none;
 }
