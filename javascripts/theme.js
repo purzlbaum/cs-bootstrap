@@ -38,8 +38,12 @@ function themeFunctions(){
    *
    * */
   this.initFancyBox = function(){
-    jQuery("a img").fancybox({
-      padding: '10px'
+    jQuery('img.alignleft, img.aligncenter, img.alignright').fancybox({
+      padding: '0px'
+    });
+
+    jQuery('img.alignleft, img.aligncenter, img.alignright').click( function() {
+      jQuery('body').toggleClass('fancybox-active');
     });
   }
 
@@ -49,7 +53,7 @@ function themeFunctions(){
    *
    * */
   this.initFitVids = function(){
-    jQuery(".entry-content").fitVids();
+    jQuery('.entry-content').fitVids();
   }
 
   /*
