@@ -28,4 +28,4 @@ WordPress parent theme based on Bootstrap 3.1.1
 
 ## Demo
 
-[themes.claudioschwarz.com](http://themes.claudioschwarz.com/)
+[themes.claudioschwarz.com/cs-bootstrap/](http://themes.claudioschwarz.com/cs-bootstrap/)
