@@ -77,3 +77,6 @@ require_once( get_template_directory() . '/includes/cs-bootstrap-post-formats.ph
 
 // cs-bootstrap-functions.php: a collection of functions
 require_once( get_template_directory() . '/includes/cs-bootstrap-functions.php' );
+
+// cs-bootstrap-theme-customizer: customize the theme
+require_once( get_template_directory() . '/includes/cs-bootstrap-theme-customizer.php' );
