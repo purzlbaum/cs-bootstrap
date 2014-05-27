@@ -8783,6 +8783,11 @@ a.external {
   padding-right: 21px;
 }
 
+/* line 1, ../sass/_header.sass */
+.header-image {
+  margin-bottom: 1em;
+}
+
 /* article */
 /* line 3, ../sass/_section.sass */
 .entry-meta ul {
