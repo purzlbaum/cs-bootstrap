@@ -27,6 +27,9 @@
     <div class="container">
       <div class="row">
         <header id="header" class="col-sm-12" role="banner">
+          <figure class="header-image">
+            <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+          </figure>
           <?php get_template_part( 'nav' ); ?>
           <?php //get_template_part( 'custom-header' ); ?>
         </header>
