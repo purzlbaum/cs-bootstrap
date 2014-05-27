@@ -19,6 +19,8 @@ WordPress parent theme based on Bootstrap 3.1.1
 - customizable admin (change the WordPress logo on top)
 
 ### Back- and frontend
+- Theme customizer
+- Header image
 - social media widget
 - disable login errors for security reasons
 - post formats
