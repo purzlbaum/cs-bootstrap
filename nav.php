@@ -18,6 +18,7 @@
         wp_nav_menu( array(
           'theme_location' => 'main_navigation',
           'depth' => 2,
+          'walker' => new cs_bootstrap_walker(),
           'items_wrap' => '<ul id="%1$s" class="%2$s nav navbar-nav">%3$s</ul>'
         ) );
         ?>
