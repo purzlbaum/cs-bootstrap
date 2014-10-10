@@ -1,5 +1,7 @@
 # cs-bootstrap
 
+[![Code Climate](https://codeclimate.com/github/purzlbaum/cs-bootstrap/badges/gpa.svg)](https://codeclimate.com/github/purzlbaum/cs-bootstrap)
+
 WordPress parent theme based on Bootstrap 3.1.1
 
 ## Includes (cs-bootstrap/includes)
