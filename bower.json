@@ -1,0 +1,21 @@
+{
+  "name": "cs-bootstrap-sass",
+  "version": "7.0.1",
+  "homepage": "http://www.claudioschwarz.com",
+  "authors": [
+    "Claudio Schwarz <claudio@claudioschwarz.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets/vendor"
+  ],
+  "dependencies": {
+    "modernizr": "2.8.2",
+    "jquery": "1.11.1",
+    "bootstrap-sass-official": "3.3.1",
+    "respond": "1.4.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "dest": "assets/manifest.json",
+  "querystring": true,
+  "assets/css/default.min.css": {
+    "path": "assets/css/default.min.css",
+    "hash": "fdbffec65dd22799d26a8beacb8fe2d5",
+    "handle": "cs-bootstrap_css"
+  },
+  "assets/js/scripts.min.js": {
+    "path": "assets/js/scripts.min.js",
+    "hash": "a79bb8cb0b7b99540e06ffe6a1616f17",
+    "handle": "cs-bootstrap_js"
+  }
+}
