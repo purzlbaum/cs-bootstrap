@@ -2,7 +2,13 @@
 
 [![Code Climate](https://codeclimate.com/github/purzlbaum/cs-bootstrap/badges/gpa.svg)](https://codeclimate.com/github/purzlbaum/cs-bootstrap)
 
-WordPress parent theme based on Bootstrap 3.1.1
+WordPress parent theme based on Bootstrap 3.3.1
+
+## Installation
+
+git@github.com:purzlbaum/cs-bootstrap.git
+npm install
+grunt dev
 
 ## Includes (cs-bootstrap/includes)
 
