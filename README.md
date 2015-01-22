@@ -6,9 +6,9 @@ WordPress parent theme based on Bootstrap 3.3.1
 
 ## Installation
 
-git@github.com:purzlbaum/cs-bootstrap.git
-npm install
-grunt dev
+- git@github.com:purzlbaum/cs-bootstrap.git
+- npm install
+- grunt dev
 
 ## Includes (cs-bootstrap/includes)
 
