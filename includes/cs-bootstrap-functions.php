@@ -6,9 +6,15 @@ add_filter('the_content', 'cs_bootstrap_first_paragraph');
 
 
 function add_first_and_last($output) {
-  $output = preg_replace('/class="menu-item/', 'class="first-menu-item menu-item', $output, 1);
-  $output = substr_replace($output, 'class="last-menu-item menu-item', strripos($output, 'class="menu-item'), strlen('class="menu-item'));
-  return $output;
+  $countMenuItems = wp_get_nav_menu_object( 'main_navigation' );
+  if($countMenuItems->count > 1) {
+    $output = preg_replace('/class="menu-item/', 'class="first-menu-item menu-item', $output, 1);
+    $output = substr_replace($output, 'class="last-menu-item menu-item', strripos($output, 'class="menu-item'), strlen('class="menu-item'));
+    return $output;
+  } else {
+    $output = preg_replace('/class="menu-item/', 'class="first-menu-item menu-item', $output, 1);
+    return $output;
+  }
 }
 add_filter('wp_nav_menu', 'add_first_and_last');
 
